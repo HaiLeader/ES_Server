@@ -1,0 +1,27 @@
+{
+  "name": "ESServer",
+  "version": "1.0.0",
+  "description": "Server for query LOD",
+  "main": "app.js",
+  "scripts": {
+    "start": "node appHttps.js",
+    "dev": "nodemon appHttps.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HaiLeader/ES_Server.git"
+  },
+  "keywords": [
+    "semantic",
+	"server",
+	"ontology",
+	"lod server"
+  ],
+  "author": "HaiLeader",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "latest",
+    "express": "latest",
+    "jade": "latest" 
+  }
+}
